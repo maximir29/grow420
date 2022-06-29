@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow420</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<div id="grid">
+    <header class="header" id="cabeza">
+        <nav class="nav" id="nav">
+        <img class="headerImg" src="img/logo.jpg" alt="icono" >       
+            <ul class="headerList">
+                <li><a href="views/productos.html">productos</a></li>
+                <li><a href="views/envios.html">envios</a></li>
+                <li><a href="views/preguntas.html">preguntas</a></li>
+                <li><a href="views/contactos.html">contactos</a></li>
+            </ul>
+        </nav>    
+            <h1 class="headerTitulo">GROW420</h1>      
+            <img src="img/fondo.jfif" alt="foto420">
+    </header>
+    
+    <main id="main">
+        <section class="productos" id="productos">
+            <h2 class="productosTitulo" id="productosTitulo">PRODUCTOS DESTACADOS</h2>
+            <div class="divImg">
+                <img src="img/carpa.jpg" alt="carpa" class="carpa" id="carpa">
+                <figcaption><b>Carpa para cultivo</b></figcaption>  
+                <img src="img/ferti.jpg" alt="ferti" class="ferti" id="ferti">
+                <figcaption><b>Fertilizante de vegetacion</b></figcaption>
+                <img src="img/luz.jpg" alt="luz" class="luz" id="luz">
+                <figcaption><b>Luz led 500wts</b> </figcaption>
+            </div>
+        </section>
+         
+        <section id="form">
+            <form class="form">
+                <fieldset class="primerBorde">
+                        <legend class="formTitulo"><b>PEDILO ONLINE</b></legend>
+                        <label for="local" class="formPriopcion">Retiro en el local</label>
+                        <input type="radio" id="local" name="envio" value="domicilio"> 
+                        <br>
+                        <label for="envio" class="formSegOpcion">Envio a domicilio</label>
+                        <input type="radio" name="envio" id="envio">
+                        <br>
+                        <select name="provincia">
+                        <option value="cordoba">Cordoba</option>
+                        <option value="rg">Rio Grande</option>
+                        <option value="BsAs">Buenos Aires</option>
+                        </select>
+                </fieldset>
+                <fieldset class="primerBorde" id="primerBorde">
+                        <p><b>CONTACTO</b></p>
+                        <p class="telefonoContacto"> Telefono: 2964520193</p> 
+                
+                        <label for="mensaje" class="mensajeFinal">Dejanos tu opinion sobre la pagina</label>
+                        <br>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                        <input type="reset" value="cancelar">
+                        <input type="submit" value="enviar">
+                </fieldset>
+            </form>        
+        </section>
+    </main>
+    <hr>
+    <footer id="footer">
+        <div class="footer">
+            <img class="iconoFooter" src="img/logo.jpg" alt="icono">
+            <h2 class="telefonoFooter">Telefono</h2>
+            <p>423902</p>
+            <h2 class="direccionFooter">Direccion</h2>
+            <p>Piedrabuena 1423</p>
+        </div>
+    </footer>  
+</div>
+</body>
+</html>
