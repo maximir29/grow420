@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(103, 187, 78);
+    box-sizing: border-box;
+    
+}
+
+.headerImg{
+    width: 40px;
+    display: inline-block;
+    margin: 0;
+}
+header img{
+    width: 100%; 
+}
+.nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+figcaption{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    line-height: 0,5rem;
+    text-align: center;
+}
+   
+
+.headerTitulo{
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+     
+}
+
+.headerList{
+    text-align: end;    
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.headerList li{
+    display: inline-block;
+
+}
+
+.primerBorde{
+    margin: 50px;
+}
+.divImg{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.productosTitulo{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(0, 158, 47);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.formTitulo{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+}
+.form label{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.contacto{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+.footer{
+    text-align: center;
+
+
+
+
+}    
+
+.iconoFooter{
+    width: 10%;
+}
+#productos{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+        "productosTitulo productosTitulo productosTitulo"
+        "carpa ferti luz";
+
+}
+#carpa{
+    grid-area: carpa;
+}
+#ferti{
+    grid-area: ferti;
+}
+#luz{
+    grid-area: luz;
+
+}
+#productosTitulo{
+    grid-area: productosTitulo;
+}
+#form{
+    grid-area: form;
+}
+#primerBorde{
+    grid-area: primerBorde;
+}
+#footer{
+    grid-area: footer;
+}
+.navPreguntas{
+    color: black;
+    font-size: 1rem;
+}
+.preguntasPreg{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+ 
+
+
