@@ -3,61 +3,11 @@
 *{
     padding: 0;
     margin: 0;
-    background-color:rgb(103, 187, 78);
+    background-color:rgb(11, 179, 53);
     box-sizing: border-box;
     
 }
 
-.headerImg{
-    width: 40px;
-    display: inline-block;
-    margin: 0;
-}
-header img{
-    width: 100%; 
-}
-.nav{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-
-}
-figcaption{
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    line-height: 0,5rem;
-    text-align: center;
-}
-   
-
-.headerTitulo{
-    color: white;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    text-align: center;
-    font-size: 4rem;
-     
-}
-
-.headerList{
-    text-align: end;    
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-}
-.headerList li{
-    display: inline-block;
-
-}
-
-.primerBorde{
-    margin: 50px;
-}
-.divImg{
-    display: flex;
-    flex-direction: column;
-
-}
 
 .productosTitulo{
     font-size: 3rem;
@@ -80,8 +30,15 @@ figcaption{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2rem;
 }
+.primerBorde{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
 .footer{
     text-align: center;
+    
 
 
 
@@ -90,6 +47,7 @@ figcaption{
 
 .iconoFooter{
     width: 10%;
+    background-color: black;
 }
 #productos{
     display: grid;
@@ -97,16 +55,21 @@ figcaption{
     grid-template-rows: repeat(3, auto);
     grid-template-areas: 
         "productosTitulo productosTitulo productosTitulo"
-        "carpa ferti luz";
+        "carpa           ferti           luz"
+        "footer          footer          footer";
+       
 
 }
 #carpa{
+    display: grid;
     grid-area: carpa;
 }
 #ferti{
+    display: grid;
     grid-area: ferti;
 }
 #luz{
+    display: grid;
     grid-area: luz;
 
 }
@@ -125,14 +88,27 @@ figcaption{
 .navPreguntas{
     color: black;
     font-size: 1rem;
+    justify-content: center;
 }
 .preguntasPreg{
     text-align: center;
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
 }
+.productosdisponibles{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.contactenos{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
 
 
- 
+
+
+
 
 
